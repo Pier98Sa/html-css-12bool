@@ -1,0 +1,61 @@
+.container{
+    margin-top: 20px;
+}
+.box{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #006cfa;
+    color: #fff;
+    border: solid 1px #fff;  
+}
+
+.row.big {
+    height: 70px;
+    background-color: #006cfa;
+    align-items: center;
+    padding: 10px;
+    border: solid 1px #fff; 
+}
+
+.box.x2{
+    height: 100px;
+}
+.row .row .box{
+    background-color: #00e165;
+    border: solid 1px #006cfa;
+}
+/*regole di allineamento orizzonatale flex*/
+.start{
+    justify-content: flex-start;
+}
+
+.center{
+    justify-content: center;
+}
+
+.end{
+    justify-content: flex-end;
+}
+
+/*regole di allineamento verticale flex*/
+.top{
+    align-items: flex-start;
+}
+
+.middle{
+    align-items: center;
+}
+
+.bottom{
+    align-items: flex-end;
+}
+
+/*regole di gestione dello spazio flex*/
+.around{
+    justify-content: space-around;
+}
+
+.between{
+    justify-content: space-between;
+}
