@@ -6,3 +6,16 @@
     color: #fff;
     border: solid 1px #fff;  
 }
+
+.row.big {
+    height: 70px;
+    background-color: #006cfa;
+    align-items: center;
+    padding: 10px;
+    border: solid 1px #fff; 
+}
+
+.row .row .box{
+    background-color: #00e165;
+    border: solid 1px #006cfa;
+}
